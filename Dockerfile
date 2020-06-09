@@ -16,3 +16,5 @@ RUN apk --update add --no-cache \
 RUN rm -rf /var/cache/apk/*
 
 RUN npm install -g grunt-cli
+
+RUN mkdir -p ~/.ssh
